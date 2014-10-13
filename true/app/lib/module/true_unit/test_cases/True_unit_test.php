@@ -13,13 +13,13 @@
 			$this->get_module()->equals_null(null);
 		}
 		public function test_equals_not_null(){
-			$this->get_module()->equals_not_null("aaaa");
+			$this->get_module()->equals_not_null("test");
 		}
 		public function test_equals_true(){
 			$this->get_module()->equals_true(true);
 		}
 		public function test_equals_obj(){
-			$a="true";
+			$a="test";
 			$this->get_module()->equals_obj($a, $a);
 		}
 		
